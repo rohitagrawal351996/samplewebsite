@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.nav-div {
+   display: flex;
+   position: relative;
+  margin-bottom: 8rem;
+   justify-content: space-evenly;
+   
+}
+
+
+.parent-list-item1 {
+    display: flex;
+    top: 3rem;
+    right: 2rem;
+
+
+  position: absolute;
+    
+    
+
+   
+  
+    color: teal; 
+    
+}
+
+
+
+
+.logo-img {
+    height: 13rem;
+    width: 13rem;
+    position: absolute;
+   
+    
+    top: -3rem;
+    left: 1rem;
+    
+    
+}
+
+.list-item {
+    list-style: none;
+    font-size: 1.4rem;
+    padding-right: 4rem;
+}
+
+.hero-img {
+    background: url('bg.jpg');
+    background-size:cover;
+    width: 100%;
+    height: 83vh;
+    background-position: center;
+    position: relative;
+
+    background-repeat: no-repeat; 
+}
+
+.hero-img-heading {
+    position: absolute;
+    color: purple;
+    font-family: 'Ephesis', cursive;
+   letter-spacing: 3px;
+   font-size: 3rem;
+   top: 12rem;
+   left: 3rem;
+   font-weight: 600;
+   text-shadow: 2px 2px teal;
+}
+
+.btn {
+    color: white;
+    background-color: teal;
+    padding: 1rem;
+    position: absolute;
+    border-radius: 2rem;
+    left: 3rem;
+    top: 17rem;
+    width: 18%;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.btn:hover {
+    color: teal;
+    background-color: white;
+       }
+
+.middle-section-div {
+    display: flex;
+    justify-content:space-around;
+    margin: 3rem;
+}
+
+#img1 {
+    max-width: 250px;   
+    height: 250px;
+    filter: brightness(40%);
+    border-radius: 1rem;
+    
+}
+
+
+
+#img2 {
+    max-width: 250px;   
+    height: 250px;
+    filter: brightness(40%);
+    border-radius: 1rem;
+}
+
+#img3 {
+    max-width: 250px;   
+    height: 250px;
+    filter: brightness(40%);
+    border-radius: 1rem;
+}
+
+.middle-section-heading {
+    color: teal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    margin-top: 2rem;
+}
+
+
+.img1-div {
+    position: relative;
+}
+
+.img1-div-heading3 {
+    position: absolute;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    top: 5rem;
+    left: 4rem;
+    
+}
+
+.img1-div-heading-btn {
+    position: absolute;
+    right: 3rem;
+    top: 10rem;
+    color: white;
+    background-color: teal;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 60%;
+    
+    border: none;
+ 
+    font-size: 1rem;
+}
+
+.img2-div {
+    position: relative;
+}
+
+.img2-div-heading3 {
+    position: absolute;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    top: 5rem;
+    left: 4rem;
+    
+}
+
+.img2-div-heading-btn {
+    position: absolute;
+    right: 3rem;
+    top: 10rem;
+    color: white;
+    background-color: teal;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 60%;
+    
+    border: none;
+ 
+    font-size: 1rem;
+}
+
+.img3-div {
+    position: relative;
+}
+
+.img3-div-heading3 {
+    position: absolute;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    top: 5rem;
+    left: 5rem;
+    
+}
+
+.img3-div-heading-btn {
+    position: absolute;
+    right: 3rem;
+    top: 10rem;
+    color: white;
+    background-color: teal;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 60%;
+    
+    border: none;
+ 
+    font-size: 1rem;
+}
+
+
+.greenleaves-img {
+    background: url('josefin-NeH6-YKTwUI-unsplash.jpg');
+    background-size: cover;    
+    width: 100%;
+    height: 55vh;
+    filter: brightness(90%);
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+   
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+
+.greenleaves-img-heading {
+   
+    color: white;
+    font-weight: 300;
+    
+    font-size: 1.2rem;
+    
+
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    width: auto;
+    height: 5rem;
+    background-color: teal;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.footer p {
+    
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    color: white; 
+}
+
+.footer-para1 {
+   
+    font-size: 1rem;
+    padding: 1rem;
+   
+    
+}
+
+
+
